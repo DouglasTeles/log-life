@@ -10,10 +10,10 @@ API para cadastro de clientes!
 - React para o front
 
 Recursos disponiveis (Usuários)
-    Cadastrar clientes
-    Visualizar clientes
-    Atualizar clientes
-    Deletar clientes
+  -  Cadastrar clientes<br/>
+  -  Visualizar clientes<br/>
+  - Atualizar clientes<br/>
+ -   Deletar clientes<br/>
 
 
 REQUISITOS
