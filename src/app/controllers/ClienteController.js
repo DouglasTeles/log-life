@@ -60,14 +60,9 @@ module.exports = {
           return res.status(200).json({ message: "Cliente não encontrado!" });
         }
 
-        const oneCliente = ({
-          id: hasclient.id,
-          nome: hasclient.nomecliente,
-          razao: hasclient.razaosobrenome,
-          tipo: hasclient.tipocliente
-        })
+        const oneCliente = (hasclient)
 
-        return res.status(200).json(oneCliente);
+        return res.status(200).json(hasclient);
       
     } catch (error) {
       return res.status(400).json(error);
