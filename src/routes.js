@@ -6,7 +6,7 @@ const authenticate = require('./app/middlewares/auth')
 //Users
 const UserController = require ('./app/controllers/UserController')
 router.post('/novousuario', UserController.store)//Cria usuario
-//router.get('/usuarios',authenticate.verifyToken, UserController.index)
+router.get('/usuarios',UserController.index)
 
 //Login
 const SessionController = require('./app/controllers/SessionController')
